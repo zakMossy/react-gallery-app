@@ -1,22 +1,9 @@
 {
   "name": "react-gallery-app",
-  "version": "1.0.0",
-  "description": "An app to create an image gallery",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zakMossy/react-gallery-app.git"
-  },
-  "author": "Zak Mosbacher",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zakMossy/react-gallery-app/issues"
-  },
-  "homepage": "https://github.com/zakMossy/react-gallery-app#readme"
+  "version": "0.1.0",
+  "homepage": "https://github.com/zakMossy/react-gallery-app#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
