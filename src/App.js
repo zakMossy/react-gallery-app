@@ -7,7 +7,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom';
-import apiKey from './config.js';
+import apiKey from './components/config.js';
 import Gallery from './components/Gallery';
 import Header from './components/Header';
 import Home from './components/Home';

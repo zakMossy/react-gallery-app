@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "An app to create an image gallery",
   "main": "index.js",
+  "engines":{
+    "node": "10.16.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zakMossy/react-gallery-app.git"
@@ -14,8 +17,10 @@
   },
   "homepage": "https://github.com/zakMossy/react-gallery-app#readme",
   "dependencies": {
+    "axios": "^0.19.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },
   "scripts": {
