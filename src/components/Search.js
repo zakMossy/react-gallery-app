@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
 export default class Search extends Component {
-        searchText: ''
-    }
+        state = {
+          searchText: ''
+        }
 
     onSearchChange = e => {
         this.setState({ searchText: e.target.value });
